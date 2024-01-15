@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".comedyaction">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/comedyMovie1"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="220dp"
+            tools:ignore="MissingClass" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/comedyMovie1"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Judul Films :"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Susah Sinyal"
+                        android:textSize="16sp"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Negara :"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Indonesia"
+                        android:textSize="16sp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Genre :"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Comedy"
+                        android:textSize="16sp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sinopsis :"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ellen (Adinia Wirasti), pengacara yang sukses, adalah seorang single mom yang jarang bisa meluangkan waktu bagi anak tunggalnya Kiara (Aurora Ribero), yang akhirnya tumbuh sebagai remaja pemberontak yang lebih banyak melampiaskan emosinya di media sosial. Mereka tinggal bersama Agatha (Niniek L. Karim), ibunda Ellen yang sangat menyayangi Kiara. Ketika Agatha meninggal terkena serangan jantung, Kiara yang sejak kecil sangat dekat dengan Omanya langsung terguncang. Oleh psikolog, Ellen disarankan untuk mengajak Kiara berlibur, menghabiskan quality time untuk mengobati masa-masa di mana Ellen terlalu sibuk bekerja. Mereka pun pergi ke Sumba, menghabiskan saat-saat menyenangkan berdua. Kiara pulang dengan hati riang. Di Jakarta, Ellen langsung disambut masalah besar di kantor. Proyek besar yang sedang ia tangani bersama Iwan (Ernest Prakasa) terancam berantakan. Akhirnya karna sibuk, Ellen tidak menepati janjinya untuk menonton Kiara tampil di perlombaan talent show antar SMA yang sudah Kiara persiapkan sejak lama. Kiara pun marah dan pergi ke Sumba sendirian, tempat dimana terakhir kali ia bisa merasakan secercah kebahagiaan"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+</RelativeLayout>

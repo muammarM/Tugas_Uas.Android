@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RomanceAction">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/romanceMovie"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="220dp"
+        tools:ignore="MissingClass" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/romanceMovie"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Judul Films :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tersanjung"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Negara :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Indonesia"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Genre :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comedy"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sinopsis :"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Di tahun 90-an, masa di saat tokoh-tokoh di ujung transisi menuju milenium baru. Yura (Clara Bernadeth) gadis malang yang tinggal dengan orang tua angkat, dibuai oleh harapan jatuh ke pelukan keluarga kaya. Tapi malang tak bisa ditolak, Yura yang sempat tersanjung, mengecap harapan sesaat, mesti dicampakkan."
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

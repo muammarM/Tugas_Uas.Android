@@ -57,8 +57,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/hallo" />
 
@@ -261,17 +261,18 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 >
+
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/security"
-                    android:layout_gravity="center_horizontal"/>
+                    android:layout_width="38dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/security" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="Fragment"
+                    android:text="Movie"
                     android:textColor="@color/black"
                     android:textSize="18dp"
                     android:textStyle="bold" />

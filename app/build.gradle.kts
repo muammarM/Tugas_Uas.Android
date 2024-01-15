@@ -30,6 +30,8 @@ android {
 
 dependencies {
     implementation("androidx.fragment:fragment:1.6.2")
+    implementation ("com.google.android.exoplayer:exoplayer:2.19.1")
+    implementation ("androidx.viewpager2:viewpager2:1.0.0'")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")

@@ -23,6 +23,7 @@
         android:layout_marginTop="100dp">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/tiga"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
@@ -40,59 +41,137 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="150dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/action1" />
-
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_margin="8dp"
-            android:layout_height="80dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_row="1"
-            android:layout_column="1"
-            >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center"
-                >
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/cinta2"
-                    android:layout_gravity="center_horizontal"/>
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="8dp"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_row="1"
-            android:layout_column="2"
-            >
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center"
-                >
-
-                <ImageView
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="Trailer"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+                    android:background="@color/kuning"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_margin="8dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="1"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/cinta2"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+                    android:background="@color/kuning"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="2"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/cinta3" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+                    android:background="@color/kuning"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -113,9 +192,35 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="150dp"
                     android:src="@drawable/cinta4"
                     android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+                    android:background="@color/kuning"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -136,9 +241,35 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="150dp"
                     android:src="@drawable/cinta10"
                     android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+                    android:background="@color/kuning"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -159,9 +290,35 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="150dp"
                     android:src="@drawable/cinta6"
                     android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+                    android:background="@color/kuning"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -183,9 +340,35 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="150dp"
                     android:src="@drawable/cinta7"
                     android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+                    android:background="@color/kuning"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
@@ -209,9 +392,35 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="150dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/cinta8" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+                    android:background="@color/kuning"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -233,9 +442,35 @@
                 >
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="150dp"
                     android:src="@drawable/cinta9"
                     android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Download"
+                    android:layout_marginBottom="4dp"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="@color/black"
+                    android:background="@color/kuning"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

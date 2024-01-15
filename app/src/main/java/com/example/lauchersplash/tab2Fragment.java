@@ -1,12 +1,13 @@
 package com.example.lauchersplash;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,10 +56,20 @@ public class tab2Fragment extends Fragment {
         }
     }
 
+    CardView videodua;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tab2, container, false);
+        View view = inflater.inflate(R.layout.fragment_tab2, container, false);
+        videodua = (CardView) view.findViewById(R.id.dua);
+        videodua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), comedyaction.class);
+                startActivity(intent);
+            }
+        });
+        return view;
     }
 }

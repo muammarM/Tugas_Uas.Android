@@ -13,6 +13,15 @@
         android:theme="@style/Theme.LaucherSplash"
         tools:targetApi="31">
         <activity
+            android:name=".RomanceAction"
+            android:exported="false" />
+        <activity
+            android:name=".comedyaction"
+            android:exported="false" />
+        <activity
+            android:name=".actionActivity"
+            android:exported="false" />
+        <activity
             android:name=".fragment2"
             android:exported="false" />
         <activity
